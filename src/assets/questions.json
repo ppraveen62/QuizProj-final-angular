@@ -1,0 +1,44 @@
+[
+  {
+    "questionNo":1,
+    "questionDesc": "Which of these cannot be used for a variable name in Java?",
+    "choice1": "identifier & keyword",
+    "choice2": " identifier",
+    "choice3": " keyword",
+    "choice4": "none of the mentioned"
+  },
+  {
+    "questionNo":2,
+    "questionDesc": "Who invented Java Programming?",
+    "choice1": "Guido van Rossum",
+    "choice2": " James Gosling",
+    "choice3": "Dennis Ritchie",
+    "choice4": "Bjarne Stroustrup"
+  },
+  {
+    "questionNo":3,
+    "questionDesc": "Which statement is true about Java?",
+    "choice1": " Java is a sequence-dependent programming language",
+    "choice2": "Java is a code dependent programming language",
+    "choice3": "Java is a platform-dependent programming language",
+    "choice4": " Java is a platform-independent programming language"
+  },
+  {
+    "questionNo":4,
+    "questionDesc": " Which component is used to compile, debug and execute the java programs?",
+    "choice1": " JRE",
+    "choice2": " JIT",
+    "choice3": " JDK",
+    "choice4": " JVM"
+  },
+  
+  {
+    "questionNo":5,
+    "questionDesc": "Which one of the following is not a Java feature?",
+    "choice1": "Object-oriented",
+    "choice2": "Use of pointers",
+    "choice3": "Portable",
+    "choice4": "Dynamic and Extensible"
+  }
+  
+]

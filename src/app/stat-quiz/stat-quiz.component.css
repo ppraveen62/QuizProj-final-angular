@@ -1,0 +1,115 @@
+
+  
+  .container{
+    max-width: fit-content;
+      margin: 0 auto;
+  }
+  
+  .choicebox{
+    display: flex;
+    align-items:baseline;
+    background-color:#030313;
+    border-radius: 15px;
+    color: whitesmoke;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-weight:normal;
+  }
+
+
+  .choicebox:hover {
+    color:dodgerblue;
+    box-shadow: 0 0.4rem 1rem 0 dodgerblue;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+
+  .radioButton{
+    font-family: system-ui, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    cursor: pointer;
+ 
+  }
+  
+  .choice-text{
+    padding-left: 10px;
+    background-color: #030313;
+  }
+    
+
+
+  #hud {
+    display: inline-block;
+    justify-content: space-between;
+    text-transform: uppercase;
+  }
+  
+  .hud-prefix {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .hud-text {
+    color: firebrick;
+    font-weight: bolder;
+    text-align: center;
+    text-justify:auto
+    
+    
+  }
+
+  #question{
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align:left;
+    width:100%;
+  }
+
+ 
+  .click{
+    border-radius: 10px;
+    background-color: rgb(3, 3, 46);
+    border-color:rgb(3, 3, 46);
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .click:hover{
+    background-color:seagreen;
+    border-color:seagreen;
+    box-shadow: 0 0.4rem 1rem 0 yellowgreen;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  .click[disabled]:hover{
+    background-color:firebrick;
+    border-color:firebrick;
+    box-shadow: 0 0.4rem 1rem 0 tomato;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    cursor: not-allowed;
+  }
+  
+
+
+  .f1box{
+    float: right;
+    
+  }
+
+  #countdown{
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 1opx;
+    padding: 2px;
+    color:black;
+    font-weight: 600;
+    font-size: xx-large;
+  }
+  

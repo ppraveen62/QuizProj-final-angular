@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#0a0845;
+    
+    
+}
+app-root{
+    margin: 10%;
+    width: 80%;
+    height: 80%;
+    display: grid;
+    align-items: center;
+    padding: 50px;
+    background-color: #cecdd0;
+    border-radius: 20px;
+}

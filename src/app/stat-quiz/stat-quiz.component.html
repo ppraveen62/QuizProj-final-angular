@@ -1,0 +1,41 @@
+<div>
+  <div id="quiz" class="justify-center flex-column">
+    <p id="countdown">{{Minutes}}:{{Seconds}}</p>
+    <div id="hud">
+      <div id="hud-item">
+        <p class="hud-prefix">Question</p>
+        <h3 class="hud-text" id="questionNo">{{qsn[i].questionNo}}/{{qsn.length}}</h3>
+      </div>
+    </div>
+    <p id="question">{{qsn[i].questionDesc}}</p>
+
+    <div class="choicebox">
+      <input type="radio" class="radioButton" id="a" name="choice" [(ngModel)]="choiceRes" (click)="RadioHandler($event)" value="A">
+      <label for="A" class="choice-text">{{qsn[i].choice1}}</label>
+    </div>
+    <div class="choicebox">
+      <input type="radio" class="radioButton" id="b" name="choice" [(ngModel)]="choiceRes" (click)="RadioHandler($event)" value="B">
+      <label for="B" class="choice-text">{{qsn[i].choice2}}</label>
+    </div>
+    <div class="choicebox">
+      <input type="radio" class="radioButton" id="c" name="choice" [(ngModel)]="choiceRes" (click)="RadioHandler($event)" value="C">
+      <label for="C" class="choice-text">{{qsn[i].choice3}}</label>
+    </div>
+    <div class="choicebox">
+      <input type="radio" class="radioButton" id="d" name="choice" [(ngModel)]="choiceRes" (click)="RadioHandler($event)" value="D">
+      <label for="D" class="choice-text">{{qsn[i].choice4}}</label>
+    </div>
+
+  </div>
+  
+
+</div>
+<div class="finishBox">
+  <div class="f1box">
+    <button type="button" disabled class="click" id="submitOption" (click)="submit()" routerLink="/finish">Submit</button>  
+  </div>
+  <div class="f2box">
+    <button type="button" disabled class="click" id="previousOption" (click)="previousQuestion()">Prev</button>
+    <button type="button" class="click" id="nextOption" (click)="nextQuestion()">Next</button>
+  </div>
+</div>
